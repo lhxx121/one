@@ -1,0 +1,87 @@
+/* 登录注册的数据输入框 */
+#phone, #code, #password {
+    border-radius: unset;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 0;
+    letter-spacing: 3px;
+}
+
+/* 头部工具栏收缩输入框 */
+#tool-search {
+    margin-top: 10px;
+    width: 116px;
+    height: 23px;
+    border:1px solid #ffffff;
+    border-radius: 12px;
+    padding-left: 8px;
+    background-color: #666666;
+    font-family: SourceHanSansCN-Light;
+	font-size: 10px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #fefefe;
+}
+/* 搜索框内的图标 */
+.search-icon {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-top: 2px;
+}
+
+
+/* 轮播图控制样式 */
+.carousel-bar .el-carousel__indicator{
+    margin-right: 28px;
+}
+.carousel-bar .el-carousel__indicator .el-carousel__button{
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    background-color: #2A303E;
+}
+.carousel-bar .is-active .el-carousel__button{
+    width: 38px;
+    background-color: #FF6F61;
+    border-radius: 9px;
+}
+
+/* 商品商品详情选项卡 */
+.el-tabs__item{
+    text-align: center;
+    color: #ff6f61;
+    width: 180px;
+	height: 50px;
+	background-color: #ffffff;
+    font-size: 24px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 50px;
+    letter-spacing: 0px;
+    border: 1px solid #ff6f61;
+}
+.el-tabs__item.is-active{
+    background-color: #ff6f61;
+    color: #ffffff;
+}
+.el-tabs__item:hover{
+    color: #ff6f61;
+}
+.el-tabs__item.is-active:hover{
+    color: #ffffff;
+}
+.el-tabs__header {
+    padding: 0;
+    margin: 0;
+}
+/* 选项卡头边框颜色 */
+.el-tabs--card>.el-tabs__header {
+    border-bottom: 1px solid #ff6f61;
+}
+.el-tabs--card>.el-tabs__header .el-tabs__nav{
+    border-left: 1px solid #ff6f61;
+    border-bottom: 1px solid #ff6f61;
+}
